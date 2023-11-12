@@ -1,7 +1,7 @@
 module.exports = (mongoose) => {
     const sleepStatsSchema = new mongoose.Schema(
         {
-            id: { type: mongoose.Schema.Types.UUID },
+            id: { type: mongoose.Schema.Types.ObjectId },
             userId: { type: String, index: true },
             sleepQuality: {
                 fallAsleepEasily: { type: Boolean }, sleepThroughNight: { type: Boolean }, wakeUpRefreshed: { type: Boolean }
