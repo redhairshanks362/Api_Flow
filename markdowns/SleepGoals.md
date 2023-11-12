@@ -1,4 +1,4 @@
-# Wake Time API Endpoint
+# Sleep Goal API Endpoint
 
 - Path: {{baseUrl}}/api/update/sleep_goal
 - Scheme: https
