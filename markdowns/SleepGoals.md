@@ -40,7 +40,7 @@ Success (201 CREATED)
     },
     "dataCollectionPhase": 1
   },
-  "message": "Wake Time updated succesfully",
+  "message": "Sleep Goal updated succesfully",
   "displayMessage": "Successful"
 }
 ```
