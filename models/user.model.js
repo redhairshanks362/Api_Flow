@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const UserSchema = new mongoose.Schema(
     {
-        id: { type: mongoose.Schema.Types.UUID },
+        id: { type: mongoose.Schema.Types.ObjectId },
         userID: { type: String, index: true },
         nickName: { type: String, maxlength: 15 },
         firstName: { type: String, maxlength: 32 },
